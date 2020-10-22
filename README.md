@@ -1,2 +1,2 @@
 # typescript-template
-A NodeJs template with Typescript and ESLint. 
+A NodeJs template with Typescript, Express and ESLint. 

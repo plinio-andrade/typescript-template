@@ -1,0 +1,29 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A NodeJs template with Typescript and ESLint.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plinio-andrade/typescript-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plinio-andrade/typescript-template/issues"
+  },
+  "homepage": "https://github.com/plinio-andrade/typescript-template#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
